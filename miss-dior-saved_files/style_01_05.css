@@ -1,0 +1,45 @@
+.dior.dior_01_05 h2{
+	text-align: left;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.dior.dior_01_05 .order h2{
+	text-align: center;
+	font-weight: normal;
+}
+
+.dior_01_05 h3{
+	text-transform: uppercase;
+	font-size: 42px;
+}
+
+.dior.dior_01_05 .order__button::after,
+.dior.dior_01_05 .order__button::before{
+	display: none;
+}
+
+.dior.dior_01_05 .order__button{
+	padding-left: 45px;
+}
+
+.dior.dior_01_05 .twice__item:nth-child(2n + 2) h3,
+.dior.dior_01_05 .twice__item:nth-child(2n + 2) h2{
+	text-align: right;
+}
+
+@media screen and (max-width: 768px) {
+	.dior.dior_01_05 .twice__item:nth-child(2n + 2) h3, .dior.dior_01_05 .twice__item:nth-child(2n + 2) h2{
+		text-align: center;
+	}
+	.dior.dior_01_05 .twice__item h3,
+	.dior.dior_01_05 .twice__item h2{
+		margin-left: 15px;
+		text-align: center;
+	}
+	.dior.dior_01_05 .twice__item h3{
+		font-size: 20px;
+	}
+	.twice__item .twice__text .order__button{
+		padding-left: 34px;
+	}
+}

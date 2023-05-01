@@ -1,0 +1,165 @@
+.brand-page-dior .product-item a,
+.product-brand-dior .product-item a
+{
+    color: black;
+    font-weight: 500;
+}
+.brand-page-dior .product-item .brand-name,
+.product-brand-dior .product-item .brand-name
+{
+    color: black;
+    font-weight: bold;
+}
+
+.brand-page-dior .button.btn-cart,
+.product-brand-dior .button.btn-cart
+{
+    background: black;
+    color: white;
+}
+.brand-page-dior .button.btn-cart:hover,
+.product-brand-dior .button.btn-cart:hover
+{
+    opacity: 0.7;
+}
+
+.brand-page-dior .link-wishlist,
+.product-brand-dior .link-wishlist
+{
+    background: black;
+    opacity: 0.8;
+}
+.brand-page-dior .link-wishlist:hover,
+.product-brand-dior .link-wishlist:hover
+{
+    opacity: 0.6;
+}
+
+.product-brand-dior .h1-brand {
+    display: none;
+}
+.product-brand-dior .product-img .prolabel {
+    right: 0;
+}
+
+.brand-page-dior #filter-container {
+    display: none !important;
+}
+.brand-page-dior .header-box .brand-link {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 70px;
+    background-image: url(../../images/brands/dior-white.png);
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: center;
+    top: 8px;
+}
+
+.brand-dior-link,
+.product-brand-logo-dior {
+    display: block;
+    width: 100%;
+    height: 70px;
+    background-image: url(../../images/brands/dior-white.png);
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: center;
+    top: 8px;
+}
+.product-brand-logo-dior {
+    margin-bottom: 18px;
+    height: 54px;
+}
+
+.brand-page-dior .header-box {
+    padding-top: 60px;
+    position: relative;
+}
+.brand-page-dior .filters-brand-logo {
+    margin-top: 90px;
+}
+.brand-page-dior .filters-brand-logo img {
+    display: none;
+}
+.brand-page-dior .brand-categories li {
+    text-transform: uppercase;
+    color: #524739;
+}
+.brand-page-dior .brand-categories li:hover {
+    color: black;
+}
+.brand-page-dior .brand-categories ul:first-child > .brand-name {
+    margin: 0 0 7px;
+}
+.brand-page-dior .brand-categories ul:last-child > .brand-name {
+    margin: 0 0 7px;
+}
+.brand-page-dior .brand-banner {
+    margin-top: 30px;
+    margin-bottom: -10px;
+}
+.brand-page-dior .brand-short-description {
+    text-transform: none;
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 1.55em;
+    margin-top: 40px;
+    margin-bottom: -10px;
+}
+.brand-page-dior .brand-info-link {
+    color: black;
+    margin-top: 2.5em;
+    padding-top: 1em;
+    padding-left: 19px;
+    border-top: solid 1px rgba(0,0,0,0.2);
+    display: block;
+}
+
+.brands-page .header-box .carousel-container {
+    margin-bottom: -70px !important;
+}
+
+.header-box .h2 {
+    text-transform: none;
+    margin-top: 70px !important;
+}
+
+    .header-box .wide-gallery-top .slick-prev {
+        left: -40px;
+    }
+
+    .header-box .wide-gallery-top .slick-next {
+        right: -40px;
+    }
+
+@media screen and (max-width: 1024px) {
+    .brand-page-dior .header-box h1 {
+        margin-top: 40px !important;
+    }
+    .brands-page .header-box .carousel-container {
+        margin-bottom: -20px !important;
+    }
+    .brand-page-dior .filter-fixed .sort {
+        top: 90px;
+    }
+    .brand-page-dior .brand-short-description {
+        display: none;
+    }
+    .brand-page-dior .sort {
+        display: none;
+    }
+    .header-box .wide-gallery-top .slick-prev {
+        left: 0;
+    }
+
+    .header-box .wide-gallery-top .slick-next {
+        right: 0;
+    }
+}
+
+.page33.last, .page35.last  {
+    display: none;
+}

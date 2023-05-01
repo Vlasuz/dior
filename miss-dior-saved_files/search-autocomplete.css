@@ -1,0 +1,159 @@
+.autocomplete-suggestions {
+    background: #FFF;
+    overflow: auto;
+    position: absolute;
+    z-index: 9999;
+    display: none;
+    box-shadow: 0 0 15px 0 rgba(102, 85, 69, .5);
+    text-transform: none;
+}
+.autocomplete-suggestion-container{
+    white-space: nowrap;
+    padding: 10px 0;
+    border: 1px solid #999;
+}
+.autocomplete-suggestion {
+    border-bottom: 1px #eee solid;
+    position: relative;
+}
+.autocomplete-suggestion .brand, .autocomplete-suggestion .category, .autocomplete-suggestion .product{
+    padding: 6px 0px;
+    margin: 0 20px 0;
+}
+.autocomplete-suggestion .brand, .autocomplete-suggestion .category {
+    padding: 8px 0px;
+}
+.autocomplete-suggestion .product{
+    padding-left: 54px;
+    padding-right: 22px;
+    overflow: hidden;
+}
+.autocomplete-suggestion .product .product-link {
+    min-height: 54px;
+}
+.autocomplete-suggestion .product-link{
+    /*display: block;*/
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+    height: 100%;
+    text-decoration: none;
+}
+.autocomplete-suggestion .title {
+    color: #524739;
+    font-size: 17px;
+    margin-bottom: 0;
+    line-height: 24px;
+}
+.autocomplete-suggestion .title .kind {
+    color: #aaa;
+    font-style: italic;
+    font-size: 14px;
+    margin-left: 4px;
+}
+.autocomplete-suggestion .product-name {
+    color: #a97b2a;
+    font-size: 16px;
+    margin-bottom: 1px;
+    line-height: 22px;
+}
+.autocomplete-suggestion .brand-name{
+    color: #524739;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 0 0 2px 0;
+}
+.autocomplete-suggestion .product-description{
+    color: #858585;
+    font-size: 13px;
+    margin-bottom: 2px;
+    line-height: 21px;
+}
+.autocomplete-suggestion .category p{
+    color: #808080;
+    line-height: 18px;
+}
+
+.autocomplete-suggestion .img-wrapper {
+    display: block;
+    position: absolute;
+    top: 50%;
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    left: 20px;
+}
+
+.autocomplete-suggestion .descriprion {
+    margin: 0 10px;
+    width: 100%;
+}
+.autocomplete-suggestion .descriprion p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.autocomplete-suggestion .descriprion p:last-child {
+    margin-bottom: 0;
+}
+.autocomplete-suggestion .arrow{
+    /*position: absolute;*/
+    /*right: 0;*/
+    /*top: 8px;*/
+    width: 24px;
+    height: 36px;
+    display: block;
+}
+.autocomplete-suggestion .arrow .line-arrow {
+    transition: none;
+}
+.autocomplete-suggestion .product .line-arrow {
+    font-size: 5px;
+    margin-top: 8px;
+    margin-right: 8px;
+}
+.autocomplete-suggestion .brand .arrow, .autocomplete-suggestion .category .arrow {
+    height: 18px;
+}
+.autocomplete-suggestion .brand .line-arrow, .autocomplete-suggestion .category .line-arrow {
+    font-size: 2px;
+    margin-top: 5px;
+    margin-right: 13px;
+}
+
+.autocomplete-suggestion .product-link:hover .title{
+    color: #000;
+}
+.autocomplete-suggestion .product-link:hover .product-name{
+    color: #000;
+}
+.autocomplete-suggestion .product-link:hover .product-description{
+    color: #222;
+}
+.autocomplete-suggestion .img-wrapper img {
+    height: 60px;
+    width: auto;
+}
+.autocomplete-selected {
+    background: rgba(244, 236, 221, 0.4);
+}
+.autocomplete-selected .line-arrow {
+    border-color: #a97b2a !important;
+}
+.autocomplete-footer {
+    background: #F4ECDD;
+    font-size: 14px;
+    padding: 6px 8px;
+}
+.autocomplete-footer a {
+    color: black;
+    text-decoration: underline !important;
+}
+.autocomplete-footer a:hover {
+    color: #a97b2a;
+}
