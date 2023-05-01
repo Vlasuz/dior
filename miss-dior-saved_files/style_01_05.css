@@ -3,15 +3,23 @@
 	text-align: left;
 	font-weight: bold;
 	text-transform: uppercase;
+	font-size: 44px;
+	line-height: 40px;
+	color: #000;
 }
 .dior.dior_01_05 .order h2{
 	text-align: center;
 	font-weight: normal;
+	margin-bottom: 40px;
+	font-weight: 200;
 }
 
-.dior_01_05 h3{
+.dior.dior_01_05 h3{
 	text-transform: uppercase;
 	font-size: 42px;
+	font-weight: 200;
+	margin-bottom: 15px;
+	color: #000;
 }
 
 .dior.dior_01_05 .order__button::after,
@@ -34,7 +42,6 @@
 	}
 	.dior.dior_01_05 .twice__item h3,
 	.dior.dior_01_05 .twice__item h2{
-		margin-left: 15px;
 		text-align: center;
 	}
 	.dior.dior_01_05 .twice__item h3{
