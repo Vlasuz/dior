@@ -47,10 +47,31 @@
 	.dior.dior_01_05 .twice__item h2{
 		text-align: center;
 	}
+	.dior.dior_01_05 h2{
+		font-size: 22px !important;
+		line-height: 20px;
+	}
 	.dior.dior_01_05 .twice__item h3{
 		font-size: 20px;
 	}
 	.twice__item .twice__text .order__button{
-		padding-left: 34px;
+		padding-left: 45px;
+		margin-top: 30px !important;
+		padding-top: 14px;
+		padding-right: 20px;
+	}
+	.dior.dior_01_05 .order__button::before{
+		background-image: url('bag.png');
+		left: 16px;
+	}
+	.dior.dior_01_05 .order__button::after{
+		left: 14px;
+	}
+	.dior.dior_01_05 .order__button::after,
+	.dior.dior_01_05 .order__button::before{
+		display: block;
+	}
+	.dior.dior_01_05 .twice__photo{
+		margin-bottom: 25px;
 	}
 }
