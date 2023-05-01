@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Futura Futuris';
+    src: local('Futura Futuris Light'), local('Futura-Futuris-Light'),
+        url('FuturaFuturisLightC.woff2') format('woff2'),
+        url('FuturaFuturisLightC.woff') format('woff'),
+        url('FuturaFuturisLightC.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
